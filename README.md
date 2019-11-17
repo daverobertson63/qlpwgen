@@ -1,6 +1,6 @@
-# Password Generator
+# Query Library API Token Password Generator
 A configurable, web-based password generator.
-## [Live Demo](https://nolanholden.github.io/password-generator/)
+## [Live Dev Version](https://r.rochenet/)
 
 ### Configurability:
 This password generator allows configuration of:
@@ -8,8 +8,9 @@ This password generator allows configuration of:
 * Character Set
 
 ### Notes:
-_Passwords are generated using JavaScript local to the browser; passwords are neither requested nor transmitted._
+_Passwords/Token are generated using JavaScript local to the browser; passwords are neither requested nor transmitted._
 
 ---
-###### Please direct all comments, criticisms, inquiries, and suggestions to Nolan at https://github.com/nolanholden/.
-###### Please make all donations payable to The Human Fund.
+
+###### Based on original version by Nolan Holden  Nolan at https://github.com/nolanholden/.
+###### Chosen because this is verified JS only version
