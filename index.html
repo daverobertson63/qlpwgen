@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="utf-8">
   <meta name="description" content="A simple, configurable password generator.">
-  <meta name="author" content="Nolan Holden">
+  <meta name="author" content="Dave Robertson">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <title>Password Generator</title>
-  <link rel="shortcut icon" type="image/x-icon" href="img/lock.ico"/>
-  <link rel="stylesheet" href="css/styles.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i|Roboto:300,300i&amp;subset=latin-ext">
+  <title>Query Library - API Secret Token</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/lock.ico" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i|Roboto:300,300i&amp;subset=latin-ext">
 </head>
+
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <!--[if lt IE 9]>
@@ -18,17 +21,30 @@
     </div>
   <![endif]-->
   <noscript>
+
     <div>
       <h3>JavaScript disabled!</h3>
       <p>This page does not work without JavaScript.</p>
     </div>
   </noscript>
   <div class="pageHead">
-    <h3>Password Generator</h3>
+
+    <div class="header1">
+      <img title="delete" src="img/qllogo.png" />
+    </div>
+
+    <h3>Query Library - API Token and Password Generator</h3>
     <p>Specify desired length and character set below.</p>
+
   </div>
+
+
+
   <hr>
   <div class="main">
+
+
+
     <div>
       <h5>Length</h5>
       <input type="number" id="passwordLength" class="inputNumber" value=15 min=0 max=6000 pattern="[0-9]">
@@ -47,6 +63,9 @@
           <label><input type="checkbox" id="cbox5"> All Keyboard Symbols</label>
         </div>
       </div>
+
+
+
       <div>
         <h5>Additional Characters</h5>
         <input type="text" id="additionalCharacters" class="inputText" placeholder="e.g. ∭й@ж!⨇⅝Дфэ♕&amp;₤₡я">
@@ -60,6 +79,23 @@
     </div>
   </div>
   <hr>
+
+  <div id="sec_tips">
+
+    <div class="post_line">Use this tool to create API tokens for the Query Library</div>
+    <div class="post_line">1. Do not use the same password for different queries.</div>
+    <div class="post_line">2. Use a password that has at least 16 characters and uses letters and numbers</div>
+    <div class="post_line">3. Keep those tokens secret and dont share.</div>
+    <div class="post_line">4. Do not use any dictionary word in your passwords.
+
+      Examples of weak tokens: qwert12345, Gbt3fC79ZmMEFUFJ, 1234567890, 987654321, nortonpassword.
+    </div>
+
+  </div><!-- sec_tips -->
+
+
+
   <script type="text/javascript" src="js/scripts.min.js"></script>
 </body>
+
 </html>
